@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C33C7BD1E0E10B700960FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33C7BC1E0E10B700960FCD /* AppDelegate.swift */; };
+		5C33C7BF1E0E10B700960FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33C7BE1E0E10B700960FCD /* ViewController.swift */; };
+		5C33C7C11E0E10B700960FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C33C7C01E0E10B700960FCD /* Assets.xcassets */; };
+		5C33C7C41E0E10B700960FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C33C7C21E0E10B700960FCD /* Main.storyboard */; };
+		5C4EE4D31E0E129A00784411 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EE4D21E0E129A00784411 /* WindowController.swift */; };
+		5C4EE4D51E0E17C100784411 /* BeaconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EE4D41E0E17C100784411 /* BeaconView.swift */; };
+		5C4EE4D71E0E1BA600784411 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EE4D61E0E1BA600784411 /* View.swift */; };
+		5C73DCCB1E1609C90011F943 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C73DCC21E1609B70011F943 /* Starscream.framework */; };
+		5C73DCCD1E1609E20011F943 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C73DCC21E1609B70011F943 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5C73DCE81E1628DB0011F943 /* JSONJoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C73DCDD1E1628CF0011F943 /* JSONJoy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C73DCBD1E1609B70011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCB41E1609B70011F943 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79E619D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+		5C73DCBF1E1609B70011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCB41E1609B70011F943 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79F119D48B7F006071F7;
+			remoteInfo = "Starscream iOSTests";
+		};
+		5C73DCC11E1609B70011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCB41E1609B70011F943 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E35F19E48FF1009FC285;
+			remoteInfo = "Starscream OSX";
+		};
+		5C73DCC31E1609B70011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCB41E1609B70011F943 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E36919E48FF1009FC285;
+			remoteInfo = "Starscream OSXTests";
+		};
+		5C73DCC51E1609B70011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCB41E1609B70011F943 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277971BD673A70003036D;
+			remoteInfo = "Starscream tvOS";
+		};
+		5C73DCC71E1609B70011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCB41E1609B70011F943 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277A01BD673A70003036D;
+			remoteInfo = "Starscream tvOSTests";
+		};
+		5C73DCC91E1609C30011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCB41E1609B70011F943 /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C3E35E19E48FF1009FC285;
+			remoteInfo = "Starscream OSX";
+		};
+		5C73DCD81E1628CF0011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79B719D355CF006071F7;
+			remoteInfo = JSONJoy;
+		};
+		5C73DCDA1E1628CF0011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79C219D355CF006071F7;
+			remoteInfo = JSONJoyTests;
+		};
+		5C73DCDC1E1628CF0011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958022E19E6ED8E003C8218;
+			remoteInfo = JSONJoyOSX;
+		};
+		5C73DCDE1E1628CF0011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958023819E6ED8E003C8218;
+			remoteInfo = JSONJoyOSXTests;
+		};
+		5C73DCE01E1628CF0011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C135EED1C4734BA00AA3A01;
+			remoteInfo = JSONJoytvOS;
+		};
+		5C73DCE21E1628CF0011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C135EF61C4734BA00AA3A01;
+			remoteInfo = JSONJoytvOSTests;
+		};
+		5C73DCE41E1628CF0011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C135FCB1C47392D00AA3A01;
+			remoteInfo = JSONJoyWatchOS;
+		};
+		5C73DCE61E1628D60011F943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D958022D19E6ED8E003C8218;
+			remoteInfo = JSONJoyOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C73DCCC1E1609D60011F943 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C73DCCD1E1609E20011F943 /* Starscream.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C33C7B91E0E10B700960FCD /* BeaconMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C33C7BC1E0E10B700960FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C33C7BE1E0E10B700960FCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C33C7C01E0E10B700960FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C33C7C31E0E10B700960FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C33C7C51E0E10B700960FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4EE4D21E0E129A00784411 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		5C4EE4D41E0E17C100784411 /* BeaconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconView.swift; sourceTree = "<group>"; };
+		5C4EE4D61E0E1BA600784411 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		5C73DCB41E1609B70011F943 /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = ../Starscream/Starscream.xcodeproj; sourceTree = "<group>"; };
+		5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONJoy.xcodeproj; path = "../JSONJoy-Swift/JSONJoy.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C33C7B61E0E10B700960FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C73DCE81E1628DB0011F943 /* JSONJoy.framework in Frameworks */,
+				5C73DCCB1E1609C90011F943 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C33C7B01E0E10B700960FCD = {
+			isa = PBXGroup;
+			children = (
+				5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */,
+				5C73DCB41E1609B70011F943 /* Starscream.xcodeproj */,
+				5C33C7BB1E0E10B700960FCD /* BeaconMap */,
+				5C33C7BA1E0E10B700960FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C33C7BA1E0E10B700960FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C33C7B91E0E10B700960FCD /* BeaconMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C33C7BB1E0E10B700960FCD /* BeaconMap */ = {
+			isa = PBXGroup;
+			children = (
+				5C33C7BC1E0E10B700960FCD /* AppDelegate.swift */,
+				5C33C7BE1E0E10B700960FCD /* ViewController.swift */,
+				5C4EE4D21E0E129A00784411 /* WindowController.swift */,
+				5C4EE4D41E0E17C100784411 /* BeaconView.swift */,
+				5C33C7C01E0E10B700960FCD /* Assets.xcassets */,
+				5C33C7C21E0E10B700960FCD /* Main.storyboard */,
+				5C33C7C51E0E10B700960FCD /* Info.plist */,
+				5C4EE4D61E0E1BA600784411 /* View.swift */,
+			);
+			path = BeaconMap;
+			sourceTree = "<group>";
+		};
+		5C73DCB51E1609B70011F943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C73DCBE1E1609B70011F943 /* Starscream.framework */,
+				5C73DCC01E1609B70011F943 /* Starscream iOSTests.xctest */,
+				5C73DCC21E1609B70011F943 /* Starscream.framework */,
+				5C73DCC41E1609B70011F943 /* Starscream OSXTests.xctest */,
+				5C73DCC61E1609B70011F943 /* Starscream.framework */,
+				5C73DCC81E1609B70011F943 /* Starscream tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C73DCCF1E1628CF0011F943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C73DCD91E1628CF0011F943 /* JSONJoy.framework */,
+				5C73DCDB1E1628CF0011F943 /* JSONJoyTests.xctest */,
+				5C73DCDD1E1628CF0011F943 /* JSONJoy.framework */,
+				5C73DCDF1E1628CF0011F943 /* JSONJoyOSXTests.xctest */,
+				5C73DCE11E1628CF0011F943 /* JSONJoy.framework */,
+				5C73DCE31E1628CF0011F943 /* JSONJoytvOSTests.xctest */,
+				5C73DCE51E1628CF0011F943 /* JSONJoy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C33C7B81E0E10B700960FCD /* BeaconMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C33C7C81E0E10B700960FCD /* Build configuration list for PBXNativeTarget "BeaconMap" */;
+			buildPhases = (
+				5C33C7B51E0E10B700960FCD /* Sources */,
+				5C33C7B61E0E10B700960FCD /* Frameworks */,
+				5C33C7B71E0E10B700960FCD /* Resources */,
+				5C73DCCC1E1609D60011F943 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C73DCE71E1628D60011F943 /* PBXTargetDependency */,
+				5C73DCCA1E1609C30011F943 /* PBXTargetDependency */,
+			);
+			name = BeaconMap;
+			productName = BeaconMap;
+			productReference = 5C33C7B91E0E10B700960FCD /* BeaconMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C33C7B11E0E10B700960FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = vluxe;
+				TargetAttributes = {
+					5C33C7B81E0E10B700960FCD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C33C7B41E0E10B700960FCD /* Build configuration list for PBXProject "BeaconMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C33C7B01E0E10B700960FCD;
+			productRefGroup = 5C33C7BA1E0E10B700960FCD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5C73DCCF1E1628CF0011F943 /* Products */;
+					ProjectRef = 5C73DCCE1E1628CF0011F943 /* JSONJoy.xcodeproj */;
+				},
+				{
+					ProductGroup = 5C73DCB51E1609B70011F943 /* Products */;
+					ProjectRef = 5C73DCB41E1609B70011F943 /* Starscream.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5C33C7B81E0E10B700960FCD /* BeaconMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5C73DCBE1E1609B70011F943 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 5C73DCBD1E1609B70011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCC01E1609B70011F943 /* Starscream iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream iOSTests.xctest";
+			remoteRef = 5C73DCBF1E1609B70011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCC21E1609B70011F943 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 5C73DCC11E1609B70011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCC41E1609B70011F943 /* Starscream OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream OSXTests.xctest";
+			remoteRef = 5C73DCC31E1609B70011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCC61E1609B70011F943 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 5C73DCC51E1609B70011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCC81E1609B70011F943 /* Starscream tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream tvOSTests.xctest";
+			remoteRef = 5C73DCC71E1609B70011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCD91E1628CF0011F943 /* JSONJoy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONJoy.framework;
+			remoteRef = 5C73DCD81E1628CF0011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCDB1E1628CF0011F943 /* JSONJoyTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JSONJoyTests.xctest;
+			remoteRef = 5C73DCDA1E1628CF0011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCDD1E1628CF0011F943 /* JSONJoy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONJoy.framework;
+			remoteRef = 5C73DCDC1E1628CF0011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCDF1E1628CF0011F943 /* JSONJoyOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JSONJoyOSXTests.xctest;
+			remoteRef = 5C73DCDE1E1628CF0011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCE11E1628CF0011F943 /* JSONJoy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONJoy.framework;
+			remoteRef = 5C73DCE01E1628CF0011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCE31E1628CF0011F943 /* JSONJoytvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JSONJoytvOSTests.xctest;
+			remoteRef = 5C73DCE21E1628CF0011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C73DCE51E1628CF0011F943 /* JSONJoy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONJoy.framework;
+			remoteRef = 5C73DCE41E1628CF0011F943 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C33C7B71E0E10B700960FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C33C7C11E0E10B700960FCD /* Assets.xcassets in Resources */,
+				5C33C7C41E0E10B700960FCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C33C7B51E0E10B700960FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C33C7BF1E0E10B700960FCD /* ViewController.swift in Sources */,
+				5C4EE4D31E0E129A00784411 /* WindowController.swift in Sources */,
+				5C4EE4D71E0E1BA600784411 /* View.swift in Sources */,
+				5C4EE4D51E0E17C100784411 /* BeaconView.swift in Sources */,
+				5C33C7BD1E0E10B700960FCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C73DCCA1E1609C30011F943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream OSX";
+			targetProxy = 5C73DCC91E1609C30011F943 /* PBXContainerItemProxy */;
+		};
+		5C73DCE71E1628D60011F943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONJoyOSX;
+			targetProxy = 5C73DCE61E1628D60011F943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C33C7C21E0E10B700960FCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C33C7C31E0E10B700960FCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C33C7C61E0E10B700960FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C33C7C71E0E10B700960FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5C33C7C91E0E10B700960FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeaconMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vluxe.BeaconMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5C33C7CA1E0E10B700960FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeaconMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vluxe.BeaconMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C33C7B41E0E10B700960FCD /* Build configuration list for PBXProject "BeaconMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C33C7C61E0E10B700960FCD /* Debug */,
+				5C33C7C71E0E10B700960FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C33C7C81E0E10B700960FCD /* Build configuration list for PBXNativeTarget "BeaconMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C33C7C91E0E10B700960FCD /* Debug */,
+				5C33C7CA1E0E10B700960FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C33C7B11E0E10B700960FCD /* Project object */;
+}
